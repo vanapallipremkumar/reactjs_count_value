@@ -1,0 +1,32 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+}
+
+.heading {
+  font-size: 45px;
+  color: #2d3a35;
+  margin: 0;
+  text-align: center;
+}
+
+.count {
+  color: #c20a72;
+}
+.click-me-button {
+  color: #fff;
+  background-color: #007bff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
